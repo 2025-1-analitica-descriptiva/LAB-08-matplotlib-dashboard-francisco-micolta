@@ -1,0 +1,46 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shipping Data Dashboard</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+            .dashboard-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+            .chart-card {
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 15px;
+                text-align: center;
+                width: 45%; 
+                box-sizing: border-box; 
+            }
+            .chart-card img { max-width: 100%; height: auto; border-radius: 4px; }
+            h1 { text-align: center; color: #333; }
+        </style>
+    </head>
+    <body>
+        <h1>Shipping Data Dashboard</h1>
+        <div class="dashboard-container">
+            <div class="chart-card">
+                <h2>Warehouse Block Distribution</h2>
+                <img src="shipping_per_warehouse.png" alt="Warehouse Block Distribution">
+            </div>
+            <div class="chart-card">
+                <h2>Mode of Shipment Distribution</h2>
+                <img src="mode_of_shipment.png" alt="Mode of Shipment Distribution">
+            </div>
+            <div class="chart-card">
+                <h2>Customer Rating Distribution</h2>
+                <img src="average_customer_rating.png" alt="Customer Rating Distribution">
+            </div>
+            <div class="chart-card">
+                <h2>Weight in Grams Distribution</h2>
+                <img src="weight_distribution.png" alt="Weight in Grams Distribution">
+            </div>
+        </div>
+    </body>
+    </html>
+    
